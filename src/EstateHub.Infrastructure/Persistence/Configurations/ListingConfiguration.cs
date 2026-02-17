@@ -34,30 +34,37 @@ public class ListingConfiguration : IEntityTypeConfiguration<Listing>
         // Relations
         builder.HasOne(x => x.Detail)
             .WithOne(x => x.Listing)
-            .HasForeignKey<ListingDetail>(x => x.ListingId);
+            .HasForeignKey<ListingDetail>(x => x.ListingId)
+            .OnDelete(DeleteBehavior.Cascade);
 
         builder.HasOne(x => x.Location)
             .WithOne(x => x.Listing)
-            .HasForeignKey<Location>(x => x.ListingId);
+            .HasForeignKey<Location>(x => x.ListingId)
+            .OnDelete(DeleteBehavior.Cascade);
 
         builder.HasMany(x => x.Images)
             .WithOne(x => x.Listing)
-            .HasForeignKey(x => x.ListingId);
+            .HasForeignKey(x => x.ListingId)
+            .OnDelete(DeleteBehavior.Cascade);
 
         builder.HasMany(x => x.Bookings)
             .WithOne(x => x.Listing)
-            .HasForeignKey(x => x.ListingId);
+            .HasForeignKey(x => x.ListingId)
+            .OnDelete(DeleteBehavior.NoAction);
 
         builder.HasMany(x => x.Reviews)
             .WithOne(x => x.Listing)
-            .HasForeignKey(x => x.ListingId);
+            .HasForeignKey(x => x.ListingId)
+            .OnDelete(DeleteBehavior.NoAction);
 
         builder.HasMany(x => x.Favorites)
             .WithOne(x => x.Listing)
-            .HasForeignKey(x => x.ListingId);
+            .HasForeignKey(x => x.ListingId)
+            .OnDelete(DeleteBehavior.NoAction);
 
         builder.HasMany(x => x.AdminReviewLogs)
             .WithOne(x => x.Listing)
-            .HasForeignKey(x => x.ListingId);
+            .HasForeignKey(x => x.ListingId)
+            .OnDelete(DeleteBehavior.NoAction);
     }
 }

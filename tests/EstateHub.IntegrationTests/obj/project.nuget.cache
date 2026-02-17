@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "DCG5iIya0O4=",
+  "dgSpecHash": "frpFPymQF4A=",
   "success": true,
   "projectFilePath": "C:\\Users\\User PC\\source\\repos\\EstateHub\\tests\\EstateHub.IntegrationTests\\EstateHub.IntegrationTests.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\User PC\\.nuget\\packages\\automapper\\16.0.0\\automapper.16.0.0.nupkg.sha512",
+    "C:\\Users\\User PC\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\User PC\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\User PC\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\User PC\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",
@@ -17,7 +17,6 @@
     "C:\\Users\\User PC\\.nuget\\packages\\hangfire.sqlserver\\1.8.23\\hangfire.sqlserver.1.8.23.nupkg.sha512",
     "C:\\Users\\User PC\\.nuget\\packages\\mediatr\\14.0.0\\mediatr.14.0.0.nupkg.sha512",
     "C:\\Users\\User PC\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
-    "C:\\Users\\User PC\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.1.0\\mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
     "C:\\Users\\User PC\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\10.0.3\\microsoft.aspnetcore.authentication.jwtbearer.10.0.3.nupkg.sha512",
     "C:\\Users\\User PC\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\10.0.3\\microsoft.aspnetcore.cryptography.internal.10.0.3.nupkg.sha512",
     "C:\\Users\\User PC\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\10.0.3\\microsoft.aspnetcore.cryptography.keyderivation.10.0.3.nupkg.sha512",
@@ -111,30 +110,5 @@
     "C:\\Users\\User PC\\.nuget\\packages\\xunit.extensibility.execution\\2.9.3\\xunit.extensibility.execution.2.9.3.nupkg.sha512",
     "C:\\Users\\User PC\\.nuget\\packages\\xunit.runner.visualstudio\\3.1.4\\xunit.runner.visualstudio.3.1.4.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1608",
-      "level": "Warning",
-      "message": "Detected package version outside of dependency constraint: MediatR.Extensions.Microsoft.DependencyInjection 11.1.0 requires MediatR (>= 11.0.0 && < 12.0.0) but version MediatR 14.0.0 was resolved.",
-      "projectPath": "C:\\Users\\User PC\\source\\repos\\EstateHub\\tests\\EstateHub.IntegrationTests\\EstateHub.IntegrationTests.csproj",
-      "warningLevel": 1,
-      "filePath": "C:\\Users\\User PC\\source\\repos\\EstateHub\\tests\\EstateHub.IntegrationTests\\EstateHub.IntegrationTests.csproj",
-      "libraryId": "MediatR",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    },
-    {
-      "code": "NU1608",
-      "level": "Warning",
-      "message": "Detected package version outside of dependency constraint: AutoMapper.Extensions.Microsoft.DependencyInjection 12.0.1 requires AutoMapper (= 12.0.1) but version AutoMapper 16.0.0 was resolved.",
-      "projectPath": "C:\\Users\\User PC\\source\\repos\\EstateHub\\tests\\EstateHub.IntegrationTests\\EstateHub.IntegrationTests.csproj",
-      "warningLevel": 1,
-      "filePath": "C:\\Users\\User PC\\source\\repos\\EstateHub\\tests\\EstateHub.IntegrationTests\\EstateHub.IntegrationTests.csproj",
-      "libraryId": "AutoMapper",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    }
-  ]
+  "logs": []
 }

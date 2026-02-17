@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EstateHub.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8217bf6c19d98e60853eb9435e5d76893f9e66dd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+35f0417cf18c0d17b9872aa63c84792ccf85d5df")]
 [assembly: System.Reflection.AssemblyProductAttribute("EstateHub.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EstateHub.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
