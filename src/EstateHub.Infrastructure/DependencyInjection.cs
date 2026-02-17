@@ -1,9 +1,15 @@
-﻿using EstateHub.Domain.Entities;
+﻿using EstateHub.Application.Interfaces;
+using EstateHub.Domain.Entities;
 using EstateHub.Infrastructure.Persistence;
+using EstateHub.Infrastructure.Services;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
+using EstateHub.Infrastructure.Persistence.Repositories;
 
 namespace EstateHub.Infrastructure;
 
@@ -27,6 +33,34 @@ public static class DependencyInjection
         })
         .AddEntityFrameworkStores<EstateHubDbContext>()
         .AddDefaultTokenProviders();
+
+        // JWT Authentication
+        var jwtSettings = configuration.GetSection("JwtSettings");
+        var secretKey = jwtSettings["SecretKey"]!;
+
+        services.AddAuthentication(options =>
+        {
+            options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+            options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+        })
+        .AddJwtBearer(options =>
+        {
+            options.TokenValidationParameters = new TokenValidationParameters
+            {
+                ValidateIssuer = true,
+                ValidateAudience = true,
+                ValidateLifetime = true,
+                ValidateIssuerSigningKey = true,
+                ValidIssuer = jwtSettings["Issuer"],
+                ValidAudience = jwtSettings["Audience"],
+                IssuerSigningKey = new SymmetricSecurityKey(
+                    Encoding.UTF8.GetBytes(secretKey))
+            };
+        });
+
+        services.AddScoped<IRepositoryManager, RepositoryManager>();
+
+        services.AddScoped<ITokenService, TokenService>();
 
         return services;
     }

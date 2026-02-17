@@ -1,7 +1,28 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\User PC\\source\\repos\\EstateHub\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7CE3375E-662B-D1A4-2E8A-75A2613275A3}|src\\EstateHub.Application\\EstateHub.Application.csproj|c:\\users\\user pc\\source\\repos\\estatehub\\src\\estatehub.application\\features\\listings\\commands\\createlisting\\createlistingcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CE3375E-662B-D1A4-2E8A-75A2613275A3}|src\\EstateHub.Application\\EstateHub.Application.csproj|solutionrelative:src\\estatehub.application\\features\\listings\\commands\\createlisting\\createlistingcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CE3375E-662B-D1A4-2E8A-75A2613275A3}|src\\EstateHub.Application\\EstateHub.Application.csproj|c:\\users\\user pc\\source\\repos\\estatehub\\src\\estatehub.application\\features\\listings\\commands\\createlisting\\createlistingcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CE3375E-662B-D1A4-2E8A-75A2613275A3}|src\\EstateHub.Application\\EstateHub.Application.csproj|solutionrelative:src\\estatehub.application\\features\\listings\\commands\\createlisting\\createlistingcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CE3375E-662B-D1A4-2E8A-75A2613275A3}|src\\EstateHub.Application\\EstateHub.Application.csproj|c:\\users\\user pc\\source\\repos\\estatehub\\src\\estatehub.application\\features\\listings\\commands\\createlisting\\createlistingcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CE3375E-662B-D1A4-2E8A-75A2613275A3}|src\\EstateHub.Application\\EstateHub.Application.csproj|solutionrelative:src\\estatehub.application\\features\\listings\\commands\\createlisting\\createlistingcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{694E4739-7A7E-EA12-68C8-6FC09D6BC71A}|src\\EstateHub.API\\EstateHub.API.csproj|c:\\users\\user pc\\source\\repos\\estatehub\\src\\estatehub.api\\controllers\\listingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{694E4739-7A7E-EA12-68C8-6FC09D6BC71A}|src\\EstateHub.API\\EstateHub.API.csproj|solutionrelative:src\\estatehub.api\\controllers\\listingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{694E4739-7A7E-EA12-68C8-6FC09D6BC71A}|src\\EstateHub.API\\EstateHub.API.csproj|c:\\users\\user pc\\source\\repos\\estatehub\\src\\estatehub.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{694E4739-7A7E-EA12-68C8-6FC09D6BC71A}|src\\EstateHub.API\\EstateHub.API.csproj|solutionrelative:src\\estatehub.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,6 +55,71 @@
             {
               "$type": "Bookmark",
               "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateListingCommand.cs",
+              "DocumentMoniker": "C:\\Users\\User PC\\source\\repos\\EstateHub\\src\\EstateHub.Application\\Features\\Listings\\Commands\\CreateListing\\CreateListingCommand.cs",
+              "RelativeDocumentMoniker": "src\\EstateHub.Application\\Features\\Listings\\Commands\\CreateListing\\CreateListingCommand.cs",
+              "ToolTip": "C:\\Users\\User PC\\source\\repos\\EstateHub\\src\\EstateHub.Application\\Features\\Listings\\Commands\\CreateListing\\CreateListingCommand.cs",
+              "RelativeToolTip": "src\\EstateHub.Application\\Features\\Listings\\Commands\\CreateListing\\CreateListingCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T17:24:59.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreateListingCommandValidator.cs",
+              "DocumentMoniker": "C:\\Users\\User PC\\source\\repos\\EstateHub\\src\\EstateHub.Application\\Features\\Listings\\Commands\\CreateListing\\CreateListingCommandValidator.cs",
+              "RelativeDocumentMoniker": "src\\EstateHub.Application\\Features\\Listings\\Commands\\CreateListing\\CreateListingCommandValidator.cs",
+              "ToolTip": "C:\\Users\\User PC\\source\\repos\\EstateHub\\src\\EstateHub.Application\\Features\\Listings\\Commands\\CreateListing\\CreateListingCommandValidator.cs",
+              "RelativeToolTip": "src\\EstateHub.Application\\Features\\Listings\\Commands\\CreateListing\\CreateListingCommandValidator.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAQwDAAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T17:24:56.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CreateListingCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\User PC\\source\\repos\\EstateHub\\src\\EstateHub.Application\\Features\\Listings\\Commands\\CreateListing\\CreateListingCommandHandler.cs",
+              "RelativeDocumentMoniker": "src\\EstateHub.Application\\Features\\Listings\\Commands\\CreateListing\\CreateListingCommandHandler.cs",
+              "ToolTip": "C:\\Users\\User PC\\source\\repos\\EstateHub\\src\\EstateHub.Application\\Features\\Listings\\Commands\\CreateListing\\CreateListingCommandHandler.cs",
+              "RelativeToolTip": "src\\EstateHub.Application\\Features\\Listings\\Commands\\CreateListing\\CreateListingCommandHandler.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAYwFYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T17:24:51.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ListingsController.cs",
+              "DocumentMoniker": "C:\\Users\\User PC\\source\\repos\\EstateHub\\src\\EstateHub.API\\Controllers\\ListingsController.cs",
+              "RelativeDocumentMoniker": "src\\EstateHub.API\\Controllers\\ListingsController.cs",
+              "ToolTip": "C:\\Users\\User PC\\source\\repos\\EstateHub\\src\\EstateHub.API\\Controllers\\ListingsController.cs",
+              "RelativeToolTip": "src\\EstateHub.API\\Controllers\\ListingsController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowDQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T17:22:50.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User PC\\source\\repos\\EstateHub\\src\\EstateHub.API\\Program.cs",
+              "RelativeDocumentMoniker": "src\\EstateHub.API\\Program.cs",
+              "ToolTip": "C:\\Users\\User PC\\source\\repos\\EstateHub\\src\\EstateHub.API\\Program.cs",
+              "RelativeToolTip": "src\\EstateHub.API\\Program.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T17:06:35.246Z",
+              "EditorCaption": ""
             }
           ]
         }

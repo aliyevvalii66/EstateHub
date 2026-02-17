@@ -4,6 +4,6 @@ namespace EstateHub.Application.Interfaces.Repositories;
 
 public interface IAdminReviewLogRepository : IRepository<AdminReviewLog>
 {
-    Task<IEnumerable<AdminReviewLog>> GetLogsByListingAsync(Guid listingId);
-    Task<IEnumerable<AdminReviewLog>> GetLogsByAdminAsync(Guid adminId);
+    Task<List<AdminReviewLog>> GetLogsByListingAsync(Guid listingId);
+    Task<List<AdminReviewLog>> GetLogsByAdminAsync(Guid adminId);
 }

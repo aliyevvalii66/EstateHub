@@ -375,9 +375,6 @@ C:\Users\User PC\source\repos\EstateHub\tests\EstateHub.IntegrationTests\bin\Deb
 C:\Users\User PC\source\repos\EstateHub\tests\EstateHub.IntegrationTests\bin\Debug\net10.0\Serilog.Sinks.Console.dll
 C:\Users\User PC\source\repos\EstateHub\tests\EstateHub.IntegrationTests\bin\Debug\net10.0\Serilog.Sinks.Debug.dll
 C:\Users\User PC\source\repos\EstateHub\tests\EstateHub.IntegrationTests\bin\Debug\net10.0\Serilog.Sinks.File.dll
-C:\Users\User PC\source\repos\EstateHub\tests\EstateHub.IntegrationTests\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\User PC\source\repos\EstateHub\tests\EstateHub.IntegrationTests\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\User PC\source\repos\EstateHub\tests\EstateHub.IntegrationTests\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\User PC\source\repos\EstateHub\tests\EstateHub.IntegrationTests\bin\Debug\net10.0\System.ClientModel.dll
 C:\Users\User PC\source\repos\EstateHub\tests\EstateHub.IntegrationTests\bin\Debug\net10.0\System.Configuration.ConfigurationManager.dll
 C:\Users\User PC\source\repos\EstateHub\tests\EstateHub.IntegrationTests\bin\Debug\net10.0\System.IdentityModel.Tokens.Jwt.dll
@@ -506,3 +503,4 @@ C:\Users\User PC\source\repos\EstateHub\tests\EstateHub.IntegrationTests\obj\Deb
 C:\Users\User PC\source\repos\EstateHub\tests\EstateHub.IntegrationTests\obj\Debug\net10.0\EstateHub.IntegrationTests.pdb
 C:\Users\User PC\source\repos\EstateHub\tests\EstateHub.IntegrationTests\obj\Debug\net10.0\EstateHub.IntegrationTests.genruntimeconfig.cache
 C:\Users\User PC\source\repos\EstateHub\tests\EstateHub.IntegrationTests\obj\Debug\net10.0\ref\EstateHub.IntegrationTests.dll
+C:\Users\User PC\source\repos\EstateHub\tests\EstateHub.IntegrationTests\bin\Debug\net10.0\Scalar.AspNetCore.dll

@@ -20,6 +20,7 @@ public class EstateHubDbContext : IdentityDbContext<AppUser, IdentityRole<Guid>,
     public DbSet<Favorite> Favorites { get; set; }
     public DbSet<Notification> Notifications { get; set; }
     public DbSet<AdminReviewLog> AdminReviewLogs { get; set; }
+    public DbSet<RefreshToken> RefreshTokens { get; set; }
 
     protected override void OnModelCreating(ModelBuilder builder)
     {
