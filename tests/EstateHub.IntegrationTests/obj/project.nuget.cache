@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "kGPtZ6rIcuI=",
+  "dgSpecHash": "DCG5iIya0O4=",
   "success": true,
   "projectFilePath": "C:\\Users\\User PC\\source\\repos\\EstateHub\\tests\\EstateHub.IntegrationTests\\EstateHub.IntegrationTests.csproj",
   "expectedPackageFiles": [
@@ -115,11 +115,11 @@
     {
       "code": "NU1608",
       "level": "Warning",
-      "message": "Detected package version outside of dependency constraint: AutoMapper.Extensions.Microsoft.DependencyInjection 12.0.1 requires AutoMapper (= 12.0.1) but version AutoMapper 16.0.0 was resolved.",
+      "message": "Detected package version outside of dependency constraint: MediatR.Extensions.Microsoft.DependencyInjection 11.1.0 requires MediatR (>= 11.0.0 && < 12.0.0) but version MediatR 14.0.0 was resolved.",
       "projectPath": "C:\\Users\\User PC\\source\\repos\\EstateHub\\tests\\EstateHub.IntegrationTests\\EstateHub.IntegrationTests.csproj",
       "warningLevel": 1,
       "filePath": "C:\\Users\\User PC\\source\\repos\\EstateHub\\tests\\EstateHub.IntegrationTests\\EstateHub.IntegrationTests.csproj",
-      "libraryId": "AutoMapper",
+      "libraryId": "MediatR",
       "targetGraphs": [
         "net10.0"
       ]
@@ -127,11 +127,11 @@
     {
       "code": "NU1608",
       "level": "Warning",
-      "message": "Detected package version outside of dependency constraint: MediatR.Extensions.Microsoft.DependencyInjection 11.1.0 requires MediatR (>= 11.0.0 && < 12.0.0) but version MediatR 14.0.0 was resolved.",
+      "message": "Detected package version outside of dependency constraint: AutoMapper.Extensions.Microsoft.DependencyInjection 12.0.1 requires AutoMapper (= 12.0.1) but version AutoMapper 16.0.0 was resolved.",
       "projectPath": "C:\\Users\\User PC\\source\\repos\\EstateHub\\tests\\EstateHub.IntegrationTests\\EstateHub.IntegrationTests.csproj",
       "warningLevel": 1,
       "filePath": "C:\\Users\\User PC\\source\\repos\\EstateHub\\tests\\EstateHub.IntegrationTests\\EstateHub.IntegrationTests.csproj",
-      "libraryId": "MediatR",
+      "libraryId": "AutoMapper",
       "targetGraphs": [
         "net10.0"
       ]

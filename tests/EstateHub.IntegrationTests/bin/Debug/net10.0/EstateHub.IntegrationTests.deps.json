@@ -1624,6 +1624,9 @@
         }
       },
       "EstateHub.Domain/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "10.0.3"
+        },
         "runtime": {
           "EstateHub.Domain.dll": {
             "assemblyVersion": "1.0.0.0",

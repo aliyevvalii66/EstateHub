@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EstateHub.UnitTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9f3e62fbb607c52e9155a6f3d19f5d2353073049")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8217bf6c19d98e60853eb9435e5d76893f9e66dd")]
 [assembly: System.Reflection.AssemblyProductAttribute("EstateHub.UnitTests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EstateHub.UnitTests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
