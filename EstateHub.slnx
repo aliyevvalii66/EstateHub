@@ -1,0 +1,13 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/EstateHub.API/EstateHub.API.csproj" />
+    <Project Path="src/EstateHub.Application/EstateHub.Application.csproj" />
+    <Project Path="src/EstateHub.Domain/EstateHub.Domain.csproj" />
+    <Project Path="src/EstateHub.Infrastructure/EstateHub.Infrastructure.csproj" />
+    <Project Path="src/EstateHub.Shared/EstateHub.Shared.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/EstateHub.IntegrationTests/EstateHub.IntegrationTests.csproj" />
+    <Project Path="tests/EstateHub.UnitTests/EstateHub.UnitTests.csproj" />
+  </Folder>
+</Solution>
