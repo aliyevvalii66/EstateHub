@@ -1,0 +1,12 @@
+C:\Users\User PC\source\repos\EstateHub\src\EstateHub.Domain\bin\Debug\net10.0\EstateHub.Domain.deps.json
+C:\Users\User PC\source\repos\EstateHub\src\EstateHub.Domain\bin\Debug\net10.0\EstateHub.Domain.dll
+C:\Users\User PC\source\repos\EstateHub\src\EstateHub.Domain\bin\Debug\net10.0\EstateHub.Domain.pdb
+C:\Users\User PC\source\repos\EstateHub\src\EstateHub.Domain\obj\Debug\net10.0\EstateHub.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User PC\source\repos\EstateHub\src\EstateHub.Domain\obj\Debug\net10.0\EstateHub.Domain.AssemblyInfoInputs.cache
+C:\Users\User PC\source\repos\EstateHub\src\EstateHub.Domain\obj\Debug\net10.0\EstateHub.Domain.AssemblyInfo.cs
+C:\Users\User PC\source\repos\EstateHub\src\EstateHub.Domain\obj\Debug\net10.0\EstateHub.Domain.csproj.CoreCompileInputs.cache
+C:\Users\User PC\source\repos\EstateHub\src\EstateHub.Domain\obj\Debug\net10.0\EstateHub.Domain.sourcelink.json
+C:\Users\User PC\source\repos\EstateHub\src\EstateHub.Domain\obj\Debug\net10.0\EstateHub.Domain.dll
+C:\Users\User PC\source\repos\EstateHub\src\EstateHub.Domain\obj\Debug\net10.0\refint\EstateHub.Domain.dll
+C:\Users\User PC\source\repos\EstateHub\src\EstateHub.Domain\obj\Debug\net10.0\EstateHub.Domain.pdb
+C:\Users\User PC\source\repos\EstateHub\src\EstateHub.Domain\obj\Debug\net10.0\ref\EstateHub.Domain.dll
